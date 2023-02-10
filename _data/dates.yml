@@ -1,0 +1,57 @@
+# Special considerations for the index page:
+# - track's title will be automatically added as a prefix
+# - the specified title will be downcased
+# - info: Workshop proposals due
+# - index page will show date only if important==true
+
+# All listed dates will appear in the specified order
+
+main-registration:
+  track: main
+  info: Paper Registration Deadline (Long and Short)
+  date: ""
+  important: true
+main-submission:
+  track: main
+  info: Paper Submission Deadline (Long and Short)
+  date: ""
+  important: true
+main-notification:
+  track: main
+  info: Acceptance Notification
+  date: ""
+  important: true
+main-due:
+  track: main
+  info: Camera Ready Due
+  date: ""
+  important: true
+
+tutorials-proposals:
+  track: tutorials
+  info: Proposals deadline
+  date: ""
+  important: true
+tutorials-notification:
+  track: tutorials
+  info: Notification of Acceptance
+  date: ""
+
+conference:
+  track: main
+  info: Conference
+  date: 
+  important: true
+
+posters-submission:
+  track: posters
+  info: Submissions deadline
+  date: ""
+posters-notification:
+  track: posters
+  info: Acceptance Notification
+  date: ""
+posters-due:
+  track: posters
+  info: Camera Ready Due
+  date: ""
