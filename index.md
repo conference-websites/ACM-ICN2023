@@ -6,9 +6,9 @@ og_tags:
     content: The organizing committee is delighted to invite you to ACM ICN 2023.
 ---
 
-## Welcome to 10th Annual ACM ICN 2023 Conference!
+## Welcome to 10th Annual ACM ICN 2023 Conference*!
 
-
+*Approval pending
 
 ## News
 {% include news.html %}
