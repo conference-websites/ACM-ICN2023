@@ -8,23 +8,23 @@
 
 main-registration:
   track: main
-  info: Paper Registration Deadline (Long and Short)
-  date: ""
+  info: "Paper Registration Deadline (Long and Short), 11:59:59pm AoE"
+  date: "June 5, 2023"
   important: true
 main-submission:
   track: main
-  info: Paper Submission Deadline (Long and Short)
-  date: ""
+  info: "Paper Submission Deadline (Long and Short), 11:59:59pm AoE"
+  date: "June 12, 2023"
   important: true
 main-notification:
   track: main
   info: Acceptance Notification
-  date: ""
+  date: "August 9, 2023"
   important: true
 main-due:
   track: main
   info: Camera Ready Due
-  date: ""
+  date: "September 18, 2023"
   important: true
 
 tutorials-proposals:
@@ -40,7 +40,7 @@ tutorials-notification:
 conference:
   track: main
   info: Conference
-  date: 
+  date: "October 8-10, 2023"
   important: true
 
 posters-submission:

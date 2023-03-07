@@ -14,8 +14,8 @@ $site-headings-font-weight:    500 !default;
 
 @import "icn23";
 
-$brand-primary:         #08a04b !default;
-$brand-success:         #08a04b !default;
+$brand-primary:         #02529C !default;
+$brand-success:         #02529C !default;
 $brand-info:            #5bc0de !default;
 $brand-warning:         #f0ad4e !default;
 $brand-danger:          #d9534f !default;
@@ -30,12 +30,12 @@ $gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee
 // Customize colors  if needed
 
 $site-colors-hfont: #ffffff;
-$site-colors-highlight: #ef4135ff;
-$site-colors-highlight-darker: #ef4135ff;
-$site-colors-highlightB: #0055a4ff;
+$site-colors-highlight: #DC1E35;
+$site-colors-highlight-darker: #DC1E35;
+$site-colors-highlightB: #02529C;
 
 $site-colors-break-background: #d1d1d1;
-$site-colors-session-background: #0063A9;
+$site-colors-session-background: #02529C;
 $site-colors-social-background: #ffbe00;
 
 @import "callouts";

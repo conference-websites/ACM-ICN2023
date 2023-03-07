@@ -9,8 +9,6 @@ encoding: utf-8
 
 plugins:
   - jekyll-assets
-  - jekyll-sitemap
-  - jekyll-last-modified-at
 
 url: http://conferences.sigcomm.org
 baseurl: /acm-icn/2023
@@ -22,7 +20,7 @@ logo:
   info: ACM ICN 2023
 
 # ACM ICN'2023 tracking
-google_analytics_id: UA-83529610-4
+google_analytics_id: G-F8VR0256LN
 
 # program:
 #   # If the specified file doesn't exist, there will be command-line dialog to create it

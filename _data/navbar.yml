@@ -1,8 +1,10 @@
 - name: Home
   url: /
+  icon: fa-home
 
 - name: Supporters
   url: /supporters.html
+  icon: fa-hand-holding-dollar
 
 # - name: ">> Program <<"
 #   url: /program.html
@@ -10,8 +12,8 @@
 # - name: "Online Registration"
 #   url: /registration.html
 
-- name: Tutorials
-  submenu:
+# - name: Tutorials
+#   submenu:
     # - name: "TBD"
     #   url: /tutorial-tbd.html
 
@@ -21,12 +23,18 @@
 # - name: "Accepted Posters&Demos"
 #   url: /accepted-posters.html
 
-# - name: Program Committee
-#   url: /tpc.html
+- name: Program Committee
+  url: /tpc.html
+  icon: fa-scale-balanced
 
 - name: Organizing Committee
   url: /org-committee.html
+  icon: fa-people-group
 
+- name: "Call for Papers"
+  url: /cf-papers.html
+  icon: fa-bullhorn
+  
 # - name: Calls
 #   submenu:
 #     - name: "<del>Call for Papers</del>"
@@ -44,6 +52,7 @@
 
 - name: Anti-Harassment Policy
   url: /policy-anti-harassment.html
+  icon: fa-shield-virus
 
 - name: Previous Editions
   submenu:

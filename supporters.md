@@ -65,7 +65,7 @@ You want to support ACM ICN 2023? Check our <a href="cf-supporters.html">Call fo
 
 {% comment %}
 
-## University Supporters
+### University Supporters
 
 <p>
 <div style="text-align: center;">
@@ -77,3 +77,15 @@ You want to support ACM ICN 2023? Check our <a href="cf-supporters.html">Call fo
 </div>
 </p>
 {% endcomment %}
+
+### Core Sponsors
+
+<p>
+<div style="text-align: center;">
+{% for supporter in site.data.supporters
+%}{% if supporter[7] == "other"
+%}<a href="{{ supporter[2] }}">{% asset "sponsors/{{ supporter[1] }}" alt="{{ supporter[3] }}" style="height: 120px; margin: 10px" %}</a>
+{% endif
+%}{% endfor %}
+</div>
+</p>
