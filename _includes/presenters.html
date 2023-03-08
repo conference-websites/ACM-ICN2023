@@ -18,7 +18,7 @@
           <ul data-role="listview" data-inset="false">
             <li data-icon="false">
               <p>
-                {% if person.photo %}{% asset "{{ person.photo }}" magick:resize="120x" class="keynote-photo" %}{% endif %}
+                {% if person.photo %}<img src="{% link assets/images/{{ person.photo }} %}" class="keynote-photo" />{% endif %}
                 {{ person.bio }}
               </p>
               <p>&nbsp;</p>

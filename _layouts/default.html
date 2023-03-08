@@ -21,7 +21,7 @@ layout: nil
 
     <title>{% if page.title and page.title != "" %}{{ page.title }} - {% endif %}{{ site.title }}</title>
 
-    {% asset site.css %}
+    <link rel="stylesheet" href="assets/css/site.css">
     <script src="https://kit.fontawesome.com/f00af20dbd.js" crossorigin="anonymous"></script>
   </head>
 
@@ -34,7 +34,9 @@ layout: nil
 
       <div class="header" data-role="header" data-theme="a" data-position="inline">
         <div>
-          <a href="{{ site.baseurl }}/">{% asset {{site.logo.image}} alt="{{ site.logo.info }}" %}</a>
+          <a href="{{ site.baseurl }}/">
+              <img src="{% link assets/images/{{ site.logo.image }} %}" alt="{{ site.logo.info }}" />
+          </a>
         </div>
         <a href="#" onclick="$.mobile.silentScroll($.mobile.activePage.find('.leftnav').position().top)" id="menu-btn" class="ui-btn-right" data-corners="true" data-icon="grid">MENU</a>
       </div>
@@ -62,6 +64,7 @@ layout: nil
 
     {% include google-analytics.html %}
 
-    {% asset site.js %}
+    <script type="text/javascript" src="assets/js/site.js"></script>
+    <!--   asset site.js  -->
   </body>
 </html>

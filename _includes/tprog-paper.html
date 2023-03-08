@@ -38,7 +38,7 @@
           {% if paper.slides contains "http://" or paper.slides contains "https://" %}
           <a href="{{ paper.slides }}" onclick="window.location='{{ paper.slides }}'; event.stopPropagation();" rel="external" target="_blank" class="ui-link">Slides</a>
           {% else %}
-          <a href="{% asset "{{ paper.slides }}" @path %}" onclick="window.location='{% asset "{{ paper.slides }}" @path %}'; event.stopPropagation();" rel="external" target="_blank" class="ui-link">Slides</a>
+          <a href="{{ paper.slides }}" onclick="window.location='{{ paper.slides }}'; event.stopPropagation();" rel="external" target="_blank" class="ui-link">Slides</a>
           {% endif %}
         </div>
         {% endif %}

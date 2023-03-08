@@ -1,6 +1,8 @@
 <div class="leftnav" role="panel" data-position="left" data-display="overlay" data-theme="a">
 
-  <a href="{{ site.baseurl }}/">{% asset {{site.logo.image}} alt="{{ site.logo.info }}" %}</a>
+  <a href="{{ site.baseurl }}/">
+      <img src="{% link assets/images/{{ site.logo.image }} %}" alt="{{ site.logo.info }}" />
+  </a>
 
   <ul data-role="listview" data-inset="true" data-theme="a" data-divider-theme="a">
 

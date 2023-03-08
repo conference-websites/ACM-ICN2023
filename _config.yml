@@ -7,9 +7,6 @@ markdown: kramdown
 exclude: ['.git', '.travis.yml', '.travis.d', '.sass-cache', 'Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'LICENSE.md', '.asset-cache', 'Dockerfile', '_scripts', 'vendor/']
 encoding: utf-8
 
-plugins:
-  - jekyll-assets
-
 url: http://conferences.sigcomm.org
 baseurl: /acm-icn/2023
 
@@ -33,23 +30,9 @@ google_analytics_id: G-F8VR0256LN
 #   google_client_id: .travis.d/google_client_id.json
 #   spreadsheet:
 #     - 1n_Tv8ZSahQp63Q0BCryc3BrVuzgn1ByiFdi2xZozbMw
-  
-assets:
-  sources:
-    - _assets/css
-    - _assets/images
-    - _assets/fonts
-    - _assets/js
-    - _assets/bower
-    - _assets/misc
-    - _assets/files
-    - .sass-cache
 
-  plugins:
-    css:
-      autoprefixer:
-        browsers:
-          - "last 2 versions"
-          - "IE > 9"
+sass:
+  sass_dir: assets/css
 
-    img: { optim: {}, magick: {} }
+  style: compressed
+  sourcemap: always

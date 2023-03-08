@@ -9,21 +9,17 @@ title: Supporters
 You want to support ACM ICN 2023? Check our <a href="cf-supporters.html">Call for Supporters</a>.
 </p>
 
-{% comment %}
-
 ### Platinum
 
 <p>
 <div style="text-align: center;">
 {% for supporter in site.data.supporters
 %}{% if supporter[7] == "platinum"
-%}<a href="{{ supporter[2] }}">{% asset "sponsors/{{ supporter[1] }}" alt="{{ supporter[3] }}" style="height: 80px; margin: 10px" %}</a>
+%}<a href="{{ supporter[2] }}"><img src='{% link assets/images/sponsors/{{ supporter[1] }} %}' alt="{{ supporter[3] }}" style="height: 80px; margin: 10px"/></a>
 {% endif
 %}{% endfor %}
 </div>
 </p>
-
-{% endcomment %}
 
 ### Gold
 
@@ -31,7 +27,7 @@ You want to support ACM ICN 2023? Check our <a href="cf-supporters.html">Call fo
 <div style="text-align: center;">
 {% for supporter in site.data.supporters
 %}{% if supporter[7] == "gold"
-%}<a href="{{ supporter[2] }}">{% asset "sponsors/{{ supporter[1] }}" alt="{{ supporter[3] }}" style="height: 100px; margin: 25px" %}</a>
+%}<a href="{{ supporter[2] }}"><img src='{% link assets/images/sponsors/{{ supporter[1] }} %}' alt="{{ supporter[3] }}" style="height: 100px; margin: 25px" /></a>
 {% endif
 %}{% endfor %}
 </div>
@@ -45,7 +41,7 @@ You want to support ACM ICN 2023? Check our <a href="cf-supporters.html">Call fo
 <div style="text-align: center;">
 {% for supporter in site.data.supporters
 %}{% if supporter[7] == "silver"
-%}<a href="{{ supporter[2] }}">{% asset "sponsors/{{ supporter[1] }}" alt="{{ supporter[3] }}" style="height: 100px; margin: 25px" %}</a>
+%}<a href="{{ supporter[2] }}"><img src='{% link assets/images/sponsors/{{ supporter[1] }} %}' alt="{{ supporter[3] }}" style="height: 100px; margin: 25px" /></a>
 {% endif
 %}{% endfor %}
 </div>
@@ -57,26 +53,11 @@ You want to support ACM ICN 2023? Check our <a href="cf-supporters.html">Call fo
 <div style="text-align: center;">
 {% for supporter in site.data.supporters
 %}{% if supporter[7] == "bronze"
-%}<a href="{{ supporter[2] }}">{% asset "sponsors/{{ supporter[1] }}" alt="{{ supporter[3] }}" style="height: 100px; margin: 25px" %}</a>
+%}<a href="{{ supporter[2] }}"><img src='{% link assets/images/sponsors/{{ supporter[1] }} %}' alt="{{ supporter[3] }}" style="height: 100px; margin: 25px" /></a>
 {% endif
 %}{% endfor %}
 </div>
 </p>
-
-{% comment %}
-
-### University Supporters
-
-<p>
-<div style="text-align: center;">
-{% for supporter in site.data.supporters
-%}{% if supporter[7] == "university"
-%}<a href="{{ supporter[2] }}">{% asset "sponsors/{{ supporter[1] }}" alt="{{ supporter[3] }}" style="height: 80px; margin: 10px" %}</a>
-{% endif
-%}{% endfor %}
-</div>
-</p>
-{% endcomment %}
 
 ### Core Sponsors
 
@@ -84,7 +65,7 @@ You want to support ACM ICN 2023? Check our <a href="cf-supporters.html">Call fo
 <div style="text-align: center;">
 {% for supporter in site.data.supporters
 %}{% if supporter[7] == "other"
-%}<a href="{{ supporter[2] }}">{% asset "sponsors/{{ supporter[1] }}" alt="{{ supporter[3] }}" style="height: 120px; margin: 10px" %}</a>
+%}<a href="{{ supporter[2] }}"><img src='{% link assets/images/sponsors/{{ supporter[1] }} %}' alt="{{ supporter[3] }}" style="height: 120px; margin: 10px" /></a>
 {% endif
 %}{% endfor %}
 </div>

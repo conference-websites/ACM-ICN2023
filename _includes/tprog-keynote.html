@@ -38,7 +38,7 @@
           {% if keynote.slides contains "http://" or keynote.slides contains "https://" %}
           <a href="{{ keynote.slides }}" onclick="window.location='{{ keynote.slides }}'; event.stopPropagation();" rel="external" target="_blank" class="ui-link">Slides</a>
           {% else %}
-          <a href="{% asset "{{ keynote.slides }}" @path %}" onclick="window.location='{% asset "{{ keynote.slides }}" @path %}'; event.stopPropagation();" rel="external" target="_blank" class="ui-link">Slides</a>
+          <a href="{{ keynote.slides }}" onclick="window.location='{{ keynote.slides }}'; event.stopPropagation();" rel="external" target="_blank" class="ui-link">Slides</a>
           {% endif %}
       </div>
       {% endif %}
@@ -64,7 +64,7 @@
       {% endif %}
       {% if has_bio %}
         <p>
-          {% if keynote.photo and keynote.photo != "" %}{% asset "{{ keynote.photo }}" class="keynote-photo" %}{% endif %}
+          {% if keynote.photo and keynote.photo != "" %}<img src="assets/images/{{ keynote.photo }}" class="keynote-photo" />{% endif %}
           <b>Bio: </b>{{ keynote.bio }}
         </p>
         <p>&nbsp;</p>
