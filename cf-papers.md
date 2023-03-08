@@ -49,12 +49,12 @@ Papers must be formatted for printing on Letter-sized (8.5" by 11") paper. Paper
 
 Please use the current [ACM LaTex template](https://github.com/conference-websites/acmart-sigproc-template), and the following configuration:
 
-```
+{% highlight tex %}
 \documentclass[10pt,sigconf,anonymous]{acmart}
 \settopmatter{printacmref=false, printccs=false, printfolios=true}
 \setcopyright{none}
 \subtitle{Paper number, XXX pages}
-```
+{% endhighlight %}
 
 SoK papers should include **"SoK: "** in the title, vision or position statements should include **"Statement: "**.
 

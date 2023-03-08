@@ -578,14 +578,18 @@ video {
 }
 
 .highlight {
-    margin-left : auto;
+    /* margin-left : auto;
     margin-right : auto;
-    text-align: center;
+    text-align: center;*/
     width : 80%;
-    padding: 1rem;
-    border: 2px solid;
-    border-color: #FD9827;
+    padding: 0.5rem;
+    /*border: 2px solid;
+    border-color: #FD9827;*/
     background-color: #F6F6F6;
+}
+
+.language-tex > .k {
+    font-weight: bold;
 }
 
 .highlighttext {
