@@ -20,7 +20,7 @@ jobs:
         sudo apt-get install -y lftp
         
     - name: Build Site with Jekyll
-      run: docker run --rm -v "`pwd`:/build" -w /build conferences/acm-icn-2020-builder:v10-2023 bundler exec jekyll build
+      run: docker run --rm -v "`pwd`:/build" -w /build cawka/acm-icn-2023-builder:v1 bundler exec jekyll build
     
     - name: Upload site to FTP
       env:
