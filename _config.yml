@@ -13,7 +13,7 @@ baseurl: /acm-icn/2023
 # Configuration for site
 title: ACM ICN 2023
 logo:
-  image: icn23-logo.png
+  image: acm-icn-2023-logo-small.png
   info: ACM ICN 2023
 
 # ACM ICN'2023 tracking
