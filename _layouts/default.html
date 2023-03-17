@@ -6,8 +6,8 @@ layout: nil
   <head>
     <meta charset="utf-8">
     <meta property="og:title" content="{% if page.title and page.title != '' %}{{ page.title }} - {% endif %}{{ site.title }}" />
-    <meta property="og:image" content="{{ site.url }}" />
-    <meta property="og:url" content="{{ page.url }}" />
+    <meta property="og:image" content="{{ site.url }}{% link assets/images/{{ site.logo.image }} %}" />
+    <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
     {% for og in page.og_tags %}
     <meta property="{{ og.property }}" content="{{ og.content }}" />
     {% endfor %}
