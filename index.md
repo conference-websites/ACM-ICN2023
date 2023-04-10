@@ -8,6 +8,8 @@ og_tags:
 
 ## Welcome to 10th Annual ACM ICN 2023 Conference!
 
+<img src="assets/images/Iceland_city.jpg" style="width: 100%" />
+
 This is the 10th installment of the ACM Conference on Information-Centric Networking -- the premiere venue for publishing peer-reviewed research on all forms of Information-Centric Networking. The conference will be held in person, in beautiful Reykjavik, Iceland.
 
 This year, the ICN conference will be held in the same week and same location as the 2023 IEEE International Conference on Network Protocols, which is celebrating its 30th anniversary this year.
