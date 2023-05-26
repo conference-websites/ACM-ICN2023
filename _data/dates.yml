@@ -9,12 +9,12 @@
 main-registration:
   track: main
   info: "Paper Registration Deadline (Long and Short), 11:59:59pm AoE"
-  date: "June 5, 2023"
+  date: "<del>June 5, 2023</del> June 12, 2023"
   important: true
 main-submission:
   track: main
   info: "Paper Submission Deadline (Long and Short), 11:59:59pm AoE"
-  date: "June 12, 2023"
+  date: "<del>June 12, 2023</del> June 19, 2023"
   important: true
 main-notification:
   track: main
