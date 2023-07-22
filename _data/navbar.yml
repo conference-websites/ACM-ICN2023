@@ -31,18 +31,15 @@
   url: /org-committee.html
   icon: fa-people-group
 
-- name: "Call for Papers"
-  url: /cf-papers.html
+- name: Calls
   icon: fa-bullhorn
-  
-# - name: Calls
-#   submenu:
-#     - name: "<del>Call for Papers</del>"
-#       url: /cf-papers.html
+  submenu:
+    - name: "Call for Papers"
+      url: /cf-papers.html
 #     - name: "<del>Call for Tutorials</del>"
 #       url: /cf-tutorials.html
-#     - name: "<del>Call for Posters and Demos</del>"
-#       url: /cf-posters.html
+    - name: "Call for Posters and Demos"
+      url: /cf-posters.html
 #     - name: Call for Supporters
 #       url: /cf-supporters.html
 #     - name: Camera-ready instructions
