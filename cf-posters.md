@@ -53,6 +53,10 @@ The abstracts of accepted posters and demos will be available to all attendees a
 
 A link to the submission website will be shared soon.
 
+### Important dates
+
+{% include dates.html track = "posters" %}
+
 ### Demo/Poster Chairs
 
 {% include committees.html committees=page.committees %}
