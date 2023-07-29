@@ -51,7 +51,7 @@ The abstracts of accepted posters and demos will be available to all attendees a
 
 ### Where to Submit
 
-A link to the submission website will be shared soon.
+Abstracts for posters and demos should be submitted via the [{{ site.title }} Posters and Demos submission website](https://icn23posterdemo.hotcrp.com/).
 
 ### Important dates
 
