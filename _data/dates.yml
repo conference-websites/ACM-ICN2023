@@ -9,17 +9,17 @@
 main-registration:
   track: main
   info: "Paper Registration Deadline (Long and Short), 11:59:59pm AoE"
-  date: "<del>June 5, 2023</del> June 12, 2023"
+  date: "<del>June 5, 2023</del> <del>June 12, 2023</del>"
   important: true
 main-submission:
   track: main
   info: "Paper Submission Deadline (Long and Short), 11:59:59pm AoE"
-  date: "<del>June 12, 2023</del> June 19, 2023"
+  date: "<del>June 12, 2023</del> <del>June 19, 2023</del>"
   important: true
 main-notification:
   track: main
   info: Acceptance Notification
-  date: "August 9, 2023"
+  date: "<del>August 9, 2023</del>"
   important: true
 main-due:
   track: main
@@ -36,6 +36,15 @@ tutorials-notification:
   track: tutorials
   info: Notification of Acceptance
   date: ""
+
+travel-submission:
+  track: travel-grants
+  info: Application Submission Deadline
+  date: "August 23, 2023"
+travel-notification:
+  track: travel-grants
+  info: Award Notification
+  date: "September 1, 2023"
 
 conference:
   track: main

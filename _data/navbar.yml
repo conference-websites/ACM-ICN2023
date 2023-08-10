@@ -47,6 +47,10 @@
 #     - name: Instructions for Video Submission
 #       url: /video.html
 
+- name: Travel Grants
+  url: /travel-grants.html
+  icon: fa-suitcase
+  
 - name: Anti-Harassment Policy
   url: /policy-anti-harassment.html
   icon: fa-shield-virus
