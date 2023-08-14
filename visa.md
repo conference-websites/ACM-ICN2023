@@ -7,14 +7,14 @@ title: Visa
 ## ACM ICN 2023 Visa Information
 
 Because the Iceland is part of the Schengen Area, citizens of the EU member states, Australia, Brazil, Canada, Israel, Japan, Switzerland, USA, and many other countries may travel to Amsterdam without a visa. Please check whether you need a Schengen visa to enter the Iceland, e.g., by looking up the visa requirements for citizens of your nationality on [Wikipedia](https://en.wikipedia.org/wiki/Category:Visa_requirements_by_nationality) or by directly contacting the [Embassy of the Iceland](https://www.government.is/topics/foreign-affairs/visa-to-iceland/) (or any other Schengen country) accredited to the country of your current residence. If you do need the Schengen visa, please proceed promptly with applying for the visa, because visa processing is unpredictable and might take a significant amount of time.
-Visa support letter
+
+### Visa support letter
 
 As part of the visa application process, you may be required to include a visa support letter. To request a visa support letter, register for the conference and then email your request to the [Conference General Chairs](mailto:icn23-chairs@sigcomm.org) with the following information included:
 
 - Your name as it appears in your passport;
 - Your current postal mailing address;
 - ACM ICN 2023 as the name of the conference you wish to attend;
-- Your registration confirmation number;
 - If you have any papers accepted for the conference, please provide the title and indicate whether you are the "sole author" or a "co-author";
 - Your email address.
 
