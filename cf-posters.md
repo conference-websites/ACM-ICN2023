@@ -15,6 +15,8 @@ committees:
       people:
       - name:        Marcin Bosk
         affiliation: Technische Universität München
+      - name:        Wei Geng
+        affiliation: The Hong Kong University of Science and Technology (Guangzhou)
       - name:        Dennis Grewe
         affiliation: Robert Bosch GmbH
       - name:        David Guzman
@@ -27,6 +29,8 @@ committees:
         affiliation: University of Applied Sciences and Arts Northwestern Switzerland
       - name:        Junxiao Shi
         affiliation: National Institute of Standards and Technology
+      - name:        Yulong Zhang
+        affiliation: The Hong Kong University of Science and Technology (Guangzhou)
 ---
 
 ## {{ page.title }}
