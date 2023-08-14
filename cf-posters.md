@@ -8,12 +8,25 @@ committees:
       people:
       - name:        Cenk Gündoğan
         affiliation: Huawei
+      - name:        Peter Kietzmann
+        affiliation: HAW Hamburg
 
     - role: Demo/Poster TPC Members
       people:
-      - name:        TBD
-        affiliation: 
-
+      - name:        Marcin Bosk
+        affiliation: Technische Universität München
+      - name:        Dennis Grewe
+        affiliation: Robert Bosch GmbH
+      - name:        David Guzman
+        affiliation: Technische Universität München
+      - name:        Michał Król
+        affiliation: City, University of London
+      - name:        José Quevedo
+        affiliation: Instituto de Telecomunicações
+      - name:        Christopher Scherb
+        affiliation: University of Applied Sciences and Arts Northwestern Switzerland
+      - name:        Junxiao Shi
+        affiliation: National Institute of Standards and Technology
 ---
 
 ## {{ page.title }}
