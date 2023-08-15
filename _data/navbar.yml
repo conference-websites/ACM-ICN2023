@@ -17,8 +17,9 @@
     # - name: "TBD"
     #   url: /tutorial-tbd.html
 
-# - name: Accepted Papers
-#   url: /accepted-papers.html
+- name: Accepted Papers
+  url: /accepted-papers.html
+  icon: fa-file-text-o
 
 # - name: "Accepted Posters&Demos"
 #   url: /accepted-posters.html

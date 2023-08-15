@@ -12,9 +12,9 @@ ARGV.each do |file|
   # print file
   papers = JSON.load File.new(file, :internal_encoding => 'utf-8', :external_encoding => 'utf-8')
 
-  CSV.open("#{file}.csv", "w", {:force_quotes=>true,
-                                :write_headers=> true,
-                                :headers => ['type', 'time', 'room', 'title', 'authors', 'abstract']}) do |output|
+  CSV.open("#{file}.csv", "w", :force_quotes=>true,
+                               :write_headers=> true,
+                               :headers => ['type', 'time', 'room', 'title', 'authors', 'abstract']) do |output|
     papers.each do |paper|
       print "#{ paper['title']}\n"
 
