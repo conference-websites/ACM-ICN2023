@@ -23,6 +23,10 @@ committees:
         affiliation: Technische Universität München
       - name:        Michał Król
         affiliation: City, University of London
+      - name:        Xinyu Ma
+        affiliation: UCLA
+      - name:        Proyash Podder
+        affiliation: Florida International University
       - name:        José Quevedo
         affiliation: Instituto de Telecomunicações
       - name:        Christopher Scherb
