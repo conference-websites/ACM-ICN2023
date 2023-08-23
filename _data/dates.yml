@@ -55,12 +55,12 @@ conference:
 posters-submission:
   track: posters
   info: Submissions deadline
-  date: "August 14, 2023"
+  date: "<del>August 14, 2023</del>"
 posters-notification:
   track: posters
   info: Acceptance Notification
-  date: "August 21, 2023"
+  date: "<del>August 21, 2023</del>"
 posters-due:
   track: posters
   info: Camera Ready Due
-  date: "August 26, 2023"
+  date: "September 18, 2023"
