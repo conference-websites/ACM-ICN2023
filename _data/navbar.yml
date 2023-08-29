@@ -43,8 +43,8 @@
       url: /cf-posters.html
 #     - name: Call for Supporters
 #       url: /cf-supporters.html
-#     - name: Camera-ready instructions
-#       url: /camera-ready.html
+    - name: Camera-ready instructions
+      url: /camera-ready.html
 #     - name: Instructions for Video Submission
 #       url: /video.html
 
