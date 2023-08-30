@@ -29,10 +29,13 @@ program:
   # Google spreadsheet with the conference data
   spreadsheet: 1mYnDYs5c3TwrBuyunftKXilICqUP2pPGMwihqWckKmM
 
-# program-at-glance:
-#   google_client_id: .travis.d/google_client_id.json
-#   spreadsheet:
-#     - 1n_Tv8ZSahQp63Q0BCryc3BrVuzgn1ByiFdi2xZozbMw
+program-at-glance:
+  google_client_id: .travis.d/google_client_id.json
+  spreadsheet:
+    - 1mYnDYs5c3TwrBuyunftKXilICqUP2pPGMwihqWckKmM
+  sheet:
+    - program-at-glance
+  path: assets/images
 
 sass:
   sass_dir: assets/css

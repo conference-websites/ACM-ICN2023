@@ -57,6 +57,8 @@ module Jekyll
               file = "#{cacheDir}/program-at-glance-#{ws.title}-#{sheetKey}"
               fileMeta = "#{cacheDir}/program-at-glance-#{ws.title}-#{sheetKey}.meta"
 
+              next unless site.config['program-at-glance']['sheet'].include? "#{ws.title}"
+
               # if File.exist?("#{file}.pdf") and File.exist?("#{file}.png") and File.exist?(fileMeta)
               #   updated = Time.parse(File.read(fileMeta))
               #   if ws.updated.to_i <= updated.to_i
@@ -68,7 +70,7 @@ module Jekyll
 
               Jekyll.logger.warn 'Processing ', ws.title
               begin
-                resp = fetch(URI("https://docs.google.com/spreadsheets/d/#{sheetKey}/export?format=pdf"))
+                resp = fetch(URI("https://docs.google.com/spreadsheets/d/#{sheetKey}/export?format=pdf&gid=#{ws.gid}"))
                 open("#{file}.pdf", "wb") do |out|
                   out.write(resp.body)
                 end
@@ -80,6 +82,9 @@ module Jekyll
 
                 system("gs -o #{file}-tmp.pdf -sDEVICE=pdfwrite -dDEVICEWIDTHPOINTS=#{width * 2} -dDEVICEHEIGHTPOINTS=#{height * 2} -dPDFFitPage #{file}.pdf")
                 system("rm #{file}.pdf && mv #{file}-tmp.pdf #{file}.pdf")
+
+                site.static_files << StaticFile.new(site, cacheDir, "", "program-at-glance-#{ws.title}-#{sheetKey}.png")
+                site.static_files << StaticFile.new(site, cacheDir, "", "program-at-glance-#{ws.title}-#{sheetKey}.pdf")
               end
             end
           # rescue

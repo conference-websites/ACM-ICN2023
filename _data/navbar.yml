@@ -6,12 +6,13 @@
   url: /supporters.html
   icon: fa-hand-holding-dollar
 
-# - name: ">> Program <<"
-#   url: /program.html
-
 - name: "Registration"
   url: /registration.html
   icon: fa-external-link
+
+- name: "Preliminary Program"
+  url: /program.html
+  icon: fa-calendar
 
 # - name: Tutorials
 #   submenu:
