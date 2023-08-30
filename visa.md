@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Visa
+group: Local Information
 
 ---
 

@@ -9,8 +9,9 @@
 # - name: ">> Program <<"
 #   url: /program.html
 
-# - name: "Online Registration"
-#   url: /registration.html
+- name: "Registration"
+  url: /registration.html
+  icon: fa-external-link
 
 # - name: Tutorials
 #   submenu:
@@ -58,10 +59,10 @@
     #   url: /tourism.html
     # - name: Room Share
     #   url: /room-share.html
-    # - name: Venue
-    #   url: /venue.html
-    # - name: Accommodations
-    #   url: /accommodations.html
+    - name: Venue
+      url: /venue.html
+    - name: Accommodations
+      url: /accommodations.html
 
 
 - name: Travel Grants
