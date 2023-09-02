@@ -85,6 +85,9 @@ module Jekyll
 
                 site.static_files << StaticFile.new(site, cacheDir, "", "program-at-glance-#{ws.title}-#{sheetKey}.png")
                 site.static_files << StaticFile.new(site, cacheDir, "", "program-at-glance-#{ws.title}-#{sheetKey}.pdf")
+                
+                site.data['program-at-glance'] = "program-at-glance-#{ws.title}-#{sheetKey}"
+                site.data['program-at-glance-digest'] = Digest::SHA256.file("#{file}.pdf").hexdigest
               end
             end
           # rescue
