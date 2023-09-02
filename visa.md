@@ -7,7 +7,7 @@ group: Local Information
 
 ## ACM ICN 2023 Visa Information
 
-Because the Iceland is part of the Schengen Area, citizens of the EU member states, Australia, Brazil, Canada, Israel, Japan, Switzerland, USA, and many other countries may travel to Amsterdam without a visa. Please check whether you need a Schengen visa to enter the Iceland, e.g., by looking up the visa requirements for citizens of your nationality on [Wikipedia](https://en.wikipedia.org/wiki/Category:Visa_requirements_by_nationality) or by directly contacting the [Embassy of the Iceland](https://www.government.is/topics/foreign-affairs/visa-to-iceland/) (or any other Schengen country) accredited to the country of your current residence. If you do need the Schengen visa, please proceed promptly with applying for the visa, because visa processing is unpredictable and might take a significant amount of time.
+Because the Iceland is part of the Schengen Area, citizens of the EU member states, Australia, Brazil, Canada, Israel, Japan, Switzerland, USA, and many other countries may travel to Reykjavik without a visa. Please check whether you need a Schengen visa to enter the Iceland, e.g., by looking up the visa requirements for citizens of your nationality on [Wikipedia](https://en.wikipedia.org/wiki/Category:Visa_requirements_by_nationality) or by directly contacting the [Embassy of the Iceland](https://www.government.is/topics/foreign-affairs/visa-to-iceland/) (or any other Schengen country) accredited to the country of your current residence. If you do need the Schengen visa, please proceed promptly with applying for the visa, because visa processing is unpredictable and might take a significant amount of time.
 
 ### Visa support letter
 
