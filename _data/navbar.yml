@@ -56,14 +56,14 @@
     - name: Visa Information
       url: /visa.html
 
-    # - name: Tourism
-    #   url: /tourism.html
     # - name: Room Share
     #   url: /room-share.html
     - name: Venue
       url: /venue.html
     - name: Accommodations
       url: /accommodations.html
+    - name: Local Transportation
+      url: /local-transport.html
 
 
 - name: Travel Grants
