@@ -14,7 +14,7 @@ After completing their rights management form, authors will be emailed the corre
 
 As rights management emails are sent from an automated system, there is a chance that emails sent will wind up in SPAM folders.  Please make sure that you and your authors set email SPAM settings to allow emails from `rightsreview@acm.org`.
 
-ACM ICN 2023 also uses HotCRP for collecting camera-ready submissions. Please go to the ACM ICN 2023 Submission Site at [**https://icn23.hotcrp.com/**](https://icn2.hotcrp.com/) or the Posters and Demos Submission Site at [**https://icn23posterdemo.hotcrp.com**](https://icn22demoposter.hotcrp.com/).  Please prepare your paper according to the instructions provided below:
+ACM ICN 2023 also uses HotCRP for collecting camera-ready submissions. Please go to the ACM ICN 2023 Submission Site at [**https://icn23.hotcrp.com/**](https://icn23.hotcrp.com/) or the Posters and Demos Submission Site at [**https://icnp23-posters.hotcrp.com**](https://icnp23-posters.hotcrp.com).  Please prepare your paper according to the instructions provided below:
 
 - Full papers should be no more than ten (10) pages, EXCLUDING references, appendices, and acknowledgements.
 - Short papers should be no more than six (6) pages, EXCLUDING references, appendices and acknowledgements.
