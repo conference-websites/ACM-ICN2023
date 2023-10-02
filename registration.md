@@ -49,3 +49,13 @@ In case of problems with registration or billing, please contact [General Chairs
 - Each accepted full-paper/short-paper/workshop-paper/poster/demo must be accompanied by a Full Registration. Each Conference Registration can cover multiple full papers, short papers, posters, or demos.
 
 - Registration accepts Visa, MasterCard, American Express.
+
+
+### Registration Instructions for Wednesday's Joint ICN/ICNP panel
+
+To promote cross-fertilization of the communities, the organizers have planned a joint ACM ICN/IEEE ICNP panel on 'Network Abstractions for Continous Innovation - What do We Need?' Wednesday afternoon.
+A fee of US$40 members ($48 nonmembers) covers the cost of the venue and post-panel reception.
+To register for the panel session and reception, go to the [ICNP Registration site](https://cvent.me/qwQdMy) and choose your appropriate category (member/nonmember).
+Fill out the name/demographics questions to get to the **'Registration Options'** page.
+Select **"Workshop and Panels Registration/A la Carte"** and click **"Next"**.
+Then Choose **'Panel Only'** and complete the payment process.
